@@ -1677,11 +1677,13 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     DeviceInfo \
     ImsRcsService \
+    QtiTelephony \
     QtiTelephonyService \
     atfwd \
     uceShimService \
     WfdService \
     dpmserviceapp \
+    ims \
     qcrilmsgtunnel \
     WfdCommon \
     tcmclient \
