@@ -1,7 +1,7 @@
 #! /vendor/bin/sh
 
 #
-# Copyright (c) 2019-2021 Qualcomm Technologies, Inc.
+# Copyright (c) 2019-2021, 2023, Qualcomm Technologies, Inc.
 # All Rights Reserved.
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 #
@@ -36,6 +36,7 @@ else
 	find /sys/class/qc-vdm/ -type f -maxdepth 1 | xargs chown system.system
 	find /sys/class/charge_pump/ -type f -maxdepth 1 | xargs chown system.system
 	find /sys/class/qcom-battery/ -type f -maxdepth 1 | xargs chown system.system
+	find /sys/class/qbg/qbg_context -type f -maxdepth 1 | xargs chown system.system
 
 	for i in 0 1 2 3 4 5 6 7 8 9
 	do
@@ -44,6 +45,12 @@ else
 			find /sys/bus/iio/devices/iio:device$i/ -type f -maxdepth 1 | xargs chown system.system
 		fi
 	done
+fi
+
+aon_present=`getprop ro.vendor.qc_aon_presence`
+if [ "$aon_present" -eq 1 ]; then
+    setprop persist.vendor.hvdcp_opti.start 2
+    exit 0
 fi
 
 setprop persist.vendor.hvdcp_opti.start 1

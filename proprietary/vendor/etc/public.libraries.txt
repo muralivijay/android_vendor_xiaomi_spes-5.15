@@ -4,8 +4,3 @@ libcdsprpc.so
 libsdsprpc.so
 libfastcvopt.so
 libOpenCL.so
-
-libmialgo_utils.so
-libmialgo_aio_seg.so
-libmialgo_ai_vision.so
-libmialgoengine.so 64

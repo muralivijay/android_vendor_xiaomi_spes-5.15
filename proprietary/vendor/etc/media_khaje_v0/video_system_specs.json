@@ -95,7 +95,8 @@
             "enc_bitrate_boost": 15,
             // time threshold of output buffer allocation loop since last input buffer queued(ms)
             // 0 --> no such limitation (loop until allocation done)
-            "max_retry_alloc_output_timeout": 0,
+            // 2023.6.20 longcheer wulei4 modify this for HTH-294888
+            "max_retry_alloc_output_timeout": 2000,
             // override default primaries to BT709 for >=UHD decode
             "default_primaries_override" : 0,
 
@@ -128,6 +129,7 @@
                 "c2.qti.hevc.decoder.low_latency",
                 "c2.qti.hevc.decoder.secure",
                 "c2.qti.vp9.decoder",
+                "c2.qti.vp9.decoder.low_latency",
                 "c2.qti.vp9.decoder.secure"
             ],
             "encoders": [

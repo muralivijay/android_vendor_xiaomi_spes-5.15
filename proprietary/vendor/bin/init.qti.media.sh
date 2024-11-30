@@ -59,7 +59,7 @@ case "$target" in
     "parrot")
         setprop vendor.mm.target.enable.qcom_parser 1040463
         case "$soc_hwid" in
-            568|602)
+            568|602|581|582)
                 setprop vendor.media.target_variant "_ravelin"
                 ;;
             *)
@@ -133,7 +133,7 @@ case "$target" in
         esac
         ;;
     "bengal")
-        setprop vendor.mm.target.enable.qcom_parser 16711663
+        setprop vendor.mm.target.enable.qcom_parser 16711407
         case "$soc_hwid" in
             518|561|585|586)
                 setprop vendor.media.target_variant "_khaje_v0"
