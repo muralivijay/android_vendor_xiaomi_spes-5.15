@@ -1,52 +1,17 @@
 {
-  "config":{
-    "hw_platform": ["IDP", "IOT"],
-    "soc_id": [ "441", "471", "473", "474"]
+  "config":
+  {
+    "hw_platform": ["IDP"],
+    "soc_id": [ "518"]
   },
-  "lsm6dso_0":{
-    "owner": "lsm6dso",
-    ".accel":{
-      "owner": "lsm6dso",
+  "qmc6308_0":{
+    "owner": "sns_qmc6308",
+    ".mag":{
+      "owner": "sns_qmc6308",
       ".config":{
-        "owner": "lsm6dso",
+        "owner": "sns_qmc6308",
         "is_dri":{ "type": "int", "ver": "0",
-          "data": "1"
-        },
-        "hw_id":{ "type": "int", "ver": "0",
           "data": "0"
-        },
-        "res_idx":{ "type": "int", "ver": "0",
-          "data": "3"
-        },
-        "sync_stream":{ "type": "int", "ver": "0",
-          "data": "0"
-        }
-      }
-    },
-    ".gyro":{
-      "owner": "lsm6dso",
-      ".config":{
-        "owner": "lsm6dso",
-        "is_dri":{ "type": "int", "ver": "0",
-          "data": "1"
-        },
-        "hw_id":{ "type": "int", "ver": "0",
-          "data": "0"
-        },
-        "res_idx":{ "type": "int", "ver": "0",
-          "data": "4"
-        },
-        "sync_stream":{ "type": "int", "ver": "0",
-          "data": "0"
-        }
-      }
-    },
-    ".md":{
-      "owner": "lsm6dso",
-      ".config":{
-        "owner": "lsm6dso",
-        "is_dri":{ "type": "int", "ver": "0",
-          "data": "1"
         },
         "hw_id":{ "type": "int", "ver": "0",
           "data": "0"
@@ -57,67 +22,43 @@
         "sync_stream":{ "type": "int", "ver": "0",
           "data": "0"
         }
-      }
-    },
-    ".temp":{
-      "owner": "lsm6dso",
-      ".config":{
-        "owner": "lsm6dso",
-        "is_dri":{ "type": "int", "ver": "0",
+      },
+      ".config_2":{
+        "owner": "sns_qmc6308",
+        "use_fifo":{ "type": "int", "ver": "0",
           "data": "0"
         },
-        "hw_id":{ "type": "int", "ver": "0",
+        "nsf":{ "type": "int", "ver": "0",
           "data": "0"
         },
-        "res_idx":{ "type": "int", "ver": "0",
-          "data": "2"
-        },
-        "sync_stream":{ "type": "int", "ver": "0",
+        "sdr":{ "type": "int", "ver": "0",
           "data": "0"
         }
       }
     }
   },
 
-  "lsm6dso_0_platform":{
-    "owner": "lsm6dso",
+  "qmc6308_0_platform":{
+    "owner": "sns_qmc6308",
     ".config":{
-      "owner": "lsm6dso",
+      "owner": "sns_qmc6308",
       "bus_type":{ "type": "int", "ver": "0",
-        "data": "3"
+        "data": "0"
       },
       "bus_instance":{ "type": "int", "ver": "0",
         "data": "2"
       },
       "slave_config":{ "type": "int", "ver": "0",
-        "data": "106"
-      },
-      "i3c_address":{ "type": "int", "ver": "0",
-        "data": "10"
+        "data": "44"
       },
       "min_bus_speed_khz":{ "type": "int", "ver": "0",
         "data": "400"
       },
       "max_bus_speed_khz":{ "type": "int", "ver": "0",
-        "data": "12500"
+        "data": "400"
       },
       "reg_addr_type":{ "type": "int", "ver": "0",
         "data": "0"
-      },
-      "dri_irq_num":{ "type": "int", "ver": "0",
-        "data": "32"
-      },
-      "irq_pull_type":{ "type": "int", "ver": "0",
-        "data": "2"
-      },
-      "irq_is_chip_pin":{ "type": "int", "ver": "0",
-        "data": "1"
-      },
-      "irq_drive_strength":{ "type": "int", "ver": "0",
-        "data": "0"
-      },
-      "irq_trigger_type":{ "type": "int", "ver": "0",
-        "data": "3"
       },
       "num_rail":{ "type": "int", "ver": "0",
         "data": "1"
@@ -129,33 +70,72 @@
         "data": "/pmic/client/sensor_vddio"
       },
       "rigid_body_type":{ "type": "int", "ver": "0",
-        "data": "0"
-      },
-      "min_odr":{ "type": "int", "ver": "0",
-        "data": "13"
-      },
-      "max_odr":{ "type": "int", "ver": "0",
-        "data": "416"
+      "data": "0"
       }
     },
     ".orient":{
-      "owner": "lsm6dso",
+      "owner": "sns_qmc6308",
       "x":{ "type": "str", "ver": "0",
         "data": "-x"
       },
       "y":{ "type": "str", "ver": "0",
-        "data": "-y"
+        "data": "+y"
       },
       "z":{ "type": "str", "ver": "0",
-        "data": "+z"
+        "data": "-z"
       }
     },
-    ".gyro":{
-      "owner": "lsm6dso",
+    ".mag":{
+      "owner": "sns_qmc6308",
       ".fac_cal":{
-        "owner": "lsm6dso",
+        "owner": "sns_qmc6308",
         ".corr_mat":{
-          "owner": "lsm6dso",
+          "owner": "sns_qmc6308",
+          "0_0":{ "type": "flt", "ver": "0",
+            "data": "1.020436"
+          },
+          "0_1":{ "type": "flt", "ver": "0",
+            "data": "0.002998"
+          },
+          "0_2":{ "type": "flt", "ver": "0",
+            "data": "-0.011826"
+          },
+          "1_0":{ "type": "flt", "ver": "0",
+            "data": "0.002998"
+          },
+          "1_1":{ "type": "flt", "ver": "0",
+            "data": "0.908457"
+          },
+          "1_2":{ "type": "flt", "ver": "0",
+            "data": "-0.000880"
+          },
+          "2_0":{ "type": "flt", "ver": "0",
+            "data": "-0.011826"
+          },
+          "2_1":{ "type": "flt", "ver": "0",
+            "data": "-0.000880"
+          },
+          "2_2":{ "type": "flt", "ver": "0",
+            "data": "1.008338"
+          }
+        },
+        ".bias":{
+          "owner": "sns_qmc6308",
+          "x":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+          "y":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+          "z":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          }
+        }
+      },
+      ".fac_cal_2":{
+        "owner": "sns_qmc6308",
+        ".corr_mat":{
+          "owner": "sns_qmc6308",
           "0_0":{ "type": "flt", "ver": "0",
             "data": "1.0"
           },
@@ -185,7 +165,7 @@
           }
         },
         ".bias":{
-          "owner": "lsm6dso",
+          "owner": "sns_qmc6308",
           "x":{ "type": "flt", "ver": "0",
             "data": "0.0"
           },
@@ -195,101 +175,19 @@
           "z":{ "type": "flt", "ver": "0",
             "data": "0.0"
           }
-        }
-      }
-    },
-    ".accel":{
-      "owner": "lsm6dso",
-      ".fac_cal":{
-        "owner": "lsm6dso",
-        ".corr_mat":{
-          "owner": "lsm6dso",
-          "0_0":{ "type": "flt", "ver": "0",
-            "data": "1.0"
-          },
-          "0_1":{ "type": "flt", "ver": "0",
-            "data": "0.0"
-          },
-          "0_2":{ "type": "flt", "ver": "0",
-            "data": "0.0"
-          },
-          "1_0":{ "type": "flt", "ver": "0",
-            "data": "0.0"
-          },
-          "1_1":{ "type": "flt", "ver": "0",
-            "data": "1.0"
-          },
-          "1_2":{ "type": "flt", "ver": "0",
-            "data": "0.0"
-          },
-          "2_0":{ "type": "flt", "ver": "0",
-            "data": "0.0"
-          },
-          "2_1":{ "type": "flt", "ver": "0",
-            "data": "0.0"
-          },
-          "2_2":{ "type": "flt", "ver": "0",
-            "data": "1.0"
-          }
-        },
-        ".bias":{
-          "owner": "lsm6dso",
-          "x":{ "type": "flt", "ver": "0",
-            "data": "0.0"
-          },
-          "y":{ "type": "flt", "ver": "0",
-            "data": "0.0"
-          },
-          "z":{ "type": "flt", "ver": "0",
-            "data": "0.0"
-          }
-        }
-      }
-    },
-    ".temp":{
-      "owner": "lsm6dso",
-      ".fac_cal":
-      {
-        "owner": "lsm6dso",
-        ".scale":{
-          "owner": "lsm6dso",
-          "x":{ "type": "flt", "ver": "0",
-            "data": "1.0"
-          }
-        },
-        ".bias":{
-          "owner": "lsm6dso",
-          "x":{ "type": "flt", "ver": "0",
-            "data": "0.0"
-          }
-        }
-      }
-    },
-    ".md":{
-      "owner": "lsm6dso",
-      ".config":{
-        "owner": "lsm6dso",
-        "thresh":{ "type": "flt", "ver": "0",
-            "data": "0.6132"
-        },
-        "disable":{ "type": "int", "ver": "0",
-          "data": "0"
-        },
-        "win":{ "type": "flt", "ver": "0",
-          "data": "0.0"
         }
       }
     },
     ".placement":{
-      "owner": "lsm6dso",
+      "owner": "sns_qmc6308",
       "0":{ "type": "flt", "ver": "0",
-        "data": "0.1"
+        "data": "0.0"
       },
       "1":{ "type": "flt", "ver": "0",
-        "data": "0.1"
+        "data": "0.0"
       },
       "2":{ "type": "flt", "ver": "0",
-        "data": "0.1"
+        "data": "0.0"
       },
       "3":{ "type": "flt", "ver": "0",
         "data": "0.0"
