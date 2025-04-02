@@ -891,6 +891,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/firmware/adsp.b30:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b30 \
     vendor/xiaomi/spes/proprietary/vendor/firmware/adsp.b31:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b31 \
     vendor/xiaomi/spes/proprietary/vendor/firmware/adsp.b32:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b32 \
+    vendor/xiaomi/spes/proprietary/vendor/firmware/adsp.b33:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b33 \
+    vendor/xiaomi/spes/proprietary/vendor/firmware/adsp.b34:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b34 \
+    vendor/xiaomi/spes/proprietary/vendor/firmware/adsp.b35:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b35 \
     vendor/xiaomi/spes/proprietary/vendor/firmware/adsp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.mdt \
     vendor/xiaomi/spes/proprietary/vendor/firmware/adspr.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/adspr.jsn \
     vendor/xiaomi/spes/proprietary/vendor/firmware/adsps.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/adsps.jsn \
