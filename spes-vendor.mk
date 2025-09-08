@@ -58,6 +58,28 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/etc/camera/126_Fantasy2.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/126_Fantasy2.png \
     vendor/xiaomi/spes/proprietary/vendor/etc/camera/127_Creamy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/127_Creamy.png \
     vendor/xiaomi/spes/proprietary/vendor/etc/camera/128_Sepia.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/128_Sepia.png \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/121_BBP.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/121_BBP.png \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/122_Mysterious.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/122_Mysterious.png \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/123_GreenOrange.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/123_GreenOrange.png \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/124_SummerDay.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/124_SummerDay.png \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/126_Fantasy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/126_Fantasy.png \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/127_DustDream.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/127_DustDream.png \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/128_MongKok.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/128_MongKok.png \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/LDC_packdata_xiaomi_M7_AAC_3264x2448_20220901.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_packdata_xiaomi_M7_AAC_3264x2448_20220901.dat \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/LDC_packdata_xiaomi_M7_Ofilm_3264x2448_20220608.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_packdata_xiaomi_M7_Ofilm_3264x2448_20220608.dat \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/aivsModels1:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aivsModels1 \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/aivsParams:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aivsParams \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/aivsParams2:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aivsParams2 \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/com.xiaomi.dcal.wu.golden:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wu.golden \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/dualcam_bokeh_params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dualcam_bokeh_params.json \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/golden_ofilm_s5kjn1_wide_ii.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_ofilm_s5kjn1_wide_ii.bin \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/golden_sunny_s5kjn1_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_sunny_s5kjn1_wide_i.bin \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/libalfpc_tuning_20181222.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/libalfpc_tuning_20181222.bin \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/model_ai_dxo.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_ai_dxo.dlc \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/model_back.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_back.dlc \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/model_front.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_front.dlc \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/model_glass.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_glass.dlc \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/model_indoor.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_indoor.dlc \
     vendor/xiaomi/spes/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/xiaomi/spes/proprietary/vendor/etc/camera/com.xiaomi.dcal.wd.golden:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wd.golden \
     vendor/xiaomi/spes/proprietary/vendor/etc/camera/com.xiaomi.dcal.wd.golden_2:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wd.golden_2 \
@@ -73,6 +95,38 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/etc/camera/model/rt_model/preview_cache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/rt_model/preview_cache \
     vendor/xiaomi/spes/proprietary/vendor/etc/camera/model/rt_model/preview_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/rt_model/preview_model \
     vendor/xiaomi/spes/proprietary/vendor/etc/camera/model/rt_model/preview_policy:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/rt_model/preview_policy \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_aac_ov08d10_ultra_global.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_aac_ov08d10_ultra_global.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_aac_ov08d10_ultra_global_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_aac_ov08d10_ultra_global_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_aac_ov08d10_ultra_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_aac_ov08d10_ultra_india.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_aac_ov08d10_ultra_india_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_aac_ov08d10_ultra_india_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_aac_s5k3l6_front_global_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_aac_s5k3l6_front_global_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_aac_s5k3l6_front_india_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_aac_s5k3l6_front_india_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_ofilm_gc02m1_macro_global.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_ofilm_gc02m1_macro_global.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_ofilm_gc02m1_macro_global_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_ofilm_gc02m1_macro_global_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_ofilm_gc02m1_macro_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_ofilm_gc02m1_macro_india.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_ofilm_gc02m1_macro_india_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_ofilm_gc02m1_macro_india_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_ofilm_ov08d10_ultra_global.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_ofilm_ov08d10_ultra_global.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_ofilm_ov08d10_ultra_global_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_ofilm_ov08d10_ultra_global_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_ofilm_ov08d10_ultra_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_ofilm_ov08d10_ultra_india.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_ofilm_ov08d10_ultra_india_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_ofilm_ov08d10_ultra_india_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_ofilm_s5kjn1_wide_global_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_ofilm_s5kjn1_wide_global_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_ofilm_s5kjn1_wide_india_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_ofilm_s5kjn1_wide_india_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_qtech_ov13b10_front_global.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_qtech_ov13b10_front_global.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_qtech_ov13b10_front_global_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_qtech_ov13b10_front_global_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_qtech_ov13b10_front_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_qtech_ov13b10_front_india.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_qtech_ov13b10_front_india_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_qtech_ov13b10_front_india_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_sunny_ov2680_macro_global.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_sunny_ov2680_macro_global.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_sunny_ov2680_macro_global_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_sunny_ov2680_macro_global_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_sunny_ov2680_macro_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_sunny_ov2680_macro_india.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_sunny_ov2680_macro_india_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_sunny_ov2680_macro_india_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_sunny_s5kjn1_wide_global.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_sunny_s5kjn1_wide_global.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_sunny_s5kjn1_wide_global_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_sunny_s5kjn1_wide_global_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_sunny_s5kjn1_wide_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_sunny_s5kjn1_wide_india.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_sunny_s5kjn1_wide_india_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_sunny_s5kjn1_wide_india_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_truly_hi259_macro_global.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_truly_hi259_macro_global.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_truly_hi259_macro_global_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_truly_hi259_macro_global_thirdparty.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_truly_hi259_macro_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_truly_hi259_macro_india.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_truly_hi259_macro_india_thirdparty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_truly_hi259_macro_india_thirdparty.xml \
     vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_aac_gc02m1_macro_global.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_aac_gc02m1_macro_global.xml \
     vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_aac_gc02m1_macro_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_aac_gc02m1_macro_india.xml \
     vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_aac_gc08a3_ultra_global.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_aac_gc08a3_ultra_global.xml \
@@ -82,6 +136,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_ofilm_s5kjn1_wide_global.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_ofilm_s5kjn1_wide_global.xml \
     vendor/xiaomi/spes/proprietary/vendor/etc/camera/morpho_lowlight_2.0_ofilm_s5kjn1_wide_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_ofilm_s5kjn1_wide_india.xml \
     vendor/xiaomi/spes/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/preview_bokeh_params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/preview_bokeh_params.json \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/sceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sceneDetection.xml \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/vidhance_kernel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_kernel1.bin \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/vidhance_kernel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_kernel2.bin \
+    vendor/xiaomi/spes/proprietary/vendor/etc/camera/xiaomiSceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomiSceneDetection.xml \
     vendor/xiaomi/spes/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
     vendor/xiaomi/spes/proprietary/vendor/etc/dsi_panel_k7_38_0c_0a_fhdp_video_display_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dsi_panel_k7_38_0c_0a_fhdp_video_display_mi.xml \
     vendor/xiaomi/spes/proprietary/vendor/etc/dsi_panel_k7_38_0c_0b_fhdp_video_display_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dsi_panel_k7_38_0c_0b_fhdp_video_display_mi.xml \
@@ -123,6 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/odm/bin/mtd@1.3:$(TARGET_COPY_OUT_ODM)/bin/mtd@1.3 \
     vendor/xiaomi/spes/proprietary/odm/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc \
     vendor/xiaomi/spes/proprietary/odm/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc \
+    vendor/xiaomi/spes/proprietary/odm/etc/camera/camerabooster.json:$(TARGET_COPY_OUT_ODM)/etc/camera/camerabooster.json \
     vendor/xiaomi/spes/proprietary/odm/lib64/libmlipay.so:$(TARGET_COPY_OUT_ODM)/lib64/libmlipay.so \
     vendor/xiaomi/spes/proprietary/odm/lib64/libmlipay@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/libmlipay@1.1.so \
     vendor/xiaomi/spes/proprietary/odm/lib64/libmt@1.3.so:$(TARGET_COPY_OUT_ODM)/lib64/libmt@1.3.so \
@@ -1382,6 +1442,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.irs2381c_polar.so \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.truly_cmb433.so \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.flash.lm3644.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.flash.lm3644.so \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.flash.ktd2691.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.flash.ktd2691.so \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.imx318.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx318.so \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.imx334.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx334.so \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.imx362.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx362.so \
@@ -1563,6 +1624,42 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.k7t_ov02b1b_depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.k7t_ov02b1b_depth.so \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.k7t_s5k3l6_front.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.k7t_s5k3l6_front.so \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.k7t_s5kjn1_wide.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.k7t_s5kjn1_wide.so \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.m7_aac_ov08d10_ultra_i.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.m7_aac_ov08d10_ultra_i.so \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.m7_aac_s5k3l6_front_i.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.m7_aac_s5k3l6_front_i.so \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.m7_ofilm_gc02m1_macro_i.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.m7_ofilm_gc02m1_macro_i.so \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.m7_ofilm_ov08d10_ultra_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.m7_ofilm_ov08d10_ultra_ii.so \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.m7_ofilm_s5kjn1_wide_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.m7_ofilm_s5kjn1_wide_ii.so \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.m7_qtech_ov13b10_front_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.m7_qtech_ov13b10_front_ii.so \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.m7_sunny_ov2680_macro_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.m7_sunny_ov2680_macro_ii.so \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.m7_sunny_s5kjn1_wide_i.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.m7_sunny_s5kjn1_wide_i.so \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.m7_truly_hi259_macro_iii.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.m7_truly_hi259_macro_iii.so \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensormodule.m7_aac_ov08d10_ultra_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.m7_aac_ov08d10_ultra_i.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensormodule.m7_aac_s5k3l6_front_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.m7_aac_s5k3l6_front_i.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensormodule.m7_ofilm_gc02m1_macro_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.m7_ofilm_gc02m1_macro_i.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensormodule.m7_ofilm_ov08d10_ultra_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.m7_ofilm_ov08d10_ultra_ii.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensormodule.m7_ofilm_s5kjn1_wide_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.m7_ofilm_s5kjn1_wide_ii.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensormodule.m7_qtech_ov13b10_front_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.m7_qtech_ov13b10_front_ii.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensormodule.m7_sunny_ov2680_macro_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.m7_sunny_ov2680_macro_ii.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensormodule.m7_sunny_s5kjn1_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.m7_sunny_s5kjn1_wide_i.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensormodule.m7_truly_hi259_macro_iii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.m7_truly_hi259_macro_iii.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_aac_ov08d10_ultra_i_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_aac_ov08d10_ultra_i_global.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_aac_ov08d10_ultra_i_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_aac_ov08d10_ultra_i_india.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_aac_s5k3l6_front_i_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_aac_s5k3l6_front_i_global.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_aac_s5k3l6_front_i_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_aac_s5k3l6_front_i_india.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_ofilm_gc02m1_macro_i_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_ofilm_gc02m1_macro_i_global.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_ofilm_gc02m1_macro_i_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_ofilm_gc02m1_macro_i_india.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_ofilm_ov08d10_ultra_ii_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_ofilm_ov08d10_ultra_ii_global.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_ofilm_ov08d10_ultra_ii_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_ofilm_ov08d10_ultra_ii_india.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_ofilm_s5kjn1_wide_ii_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_ofilm_s5kjn1_wide_ii_global.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_ofilm_s5kjn1_wide_ii_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_ofilm_s5kjn1_wide_ii_india.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_qtech_ov13b10_front_ii_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_qtech_ov13b10_front_ii_global.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_qtech_ov13b10_front_ii_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_qtech_ov13b10_front_ii_india.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_sunny_ov2680_macro_ii_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_sunny_ov2680_macro_ii_global.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_sunny_ov2680_macro_ii_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_sunny_ov2680_macro_ii_india.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_sunny_s5kjn1_wide_i_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_sunny_s5kjn1_wide_i_global.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_sunny_s5kjn1_wide_i_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_sunny_s5kjn1_wide_i_india.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_truly_hi259_macro_iii_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_truly_hi259_macro_iii_global.bin \
+    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.m7_truly_hi259_macro_iii_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.m7_truly_hi259_macro_iii_india.bin \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensormodule.k7t_aac_gc02m1_macro_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.k7t_aac_gc02m1_macro_ii.bin \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensormodule.k7t_aac_gc08a3_ultra_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.k7t_aac_gc08a3_ultra_i.bin \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensormodule.k7t_aac_s5k3l6_front_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.k7t_aac_s5k3l6_front_ii.bin \
