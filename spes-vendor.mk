@@ -264,7 +264,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
     vendor/xiaomi/spes/proprietary/vendor/lib64/libcamxifestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxifestriping.so \
     vendor/xiaomi/spes/proprietary/vendor/lib64/libcamximageformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamximageformatutils.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/libcamxncs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxncs.so \
     vendor/xiaomi/spes/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
     vendor/xiaomi/spes/proprietary/vendor/lib64/libcamxswispiqmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswispiqmodule.so \
     vendor/xiaomi/spes/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
@@ -1576,6 +1575,7 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     liblmthermallistner \
     libthermalclient \
+    libcamxncs \
     CACertService \
     CneApp \
     IWlanService \
