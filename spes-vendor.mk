@@ -108,50 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.k7t_ov02b1b_depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.k7t_ov02b1b_depth.so \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.k7t_s5k3l6_front.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.k7t_s5k3l6_front.so \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.sensor.k7t_s5kjn1_wide.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.k7t_s5kjn1_wide.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_aac_gc02m1_macro_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_aac_gc02m1_macro_ii.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_aac_gc02m1_macro_ii_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_aac_gc02m1_macro_ii_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_aac_gc02m1_macro_ii_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_aac_gc02m1_macro_ii_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_aac_gc02m1_macro_ii_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_aac_gc02m1_macro_ii_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_aac_gc08a3_ultra_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_aac_gc08a3_ultra_i.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_aac_gc08a3_ultra_i_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_aac_gc08a3_ultra_i_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_aac_gc08a3_ultra_i_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_aac_gc08a3_ultra_i_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_aac_gc08a3_ultra_i_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_aac_gc08a3_ultra_i_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_aac_s5k3l6_front_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_aac_s5k3l6_front_ii.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_aac_s5k3l6_front_ii_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_aac_s5k3l6_front_ii_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_aac_s5k3l6_front_ii_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_aac_s5k3l6_front_ii_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_aac_s5k3l6_front_ii_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_aac_s5k3l6_front_ii_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_aac_s5kjn1_wide_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_aac_s5kjn1_wide_ii.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_aac_s5kjn1_wide_ii_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_aac_s5kjn1_wide_ii_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_aac_s5kjn1_wide_ii_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_aac_s5kjn1_wide_ii_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_aac_s5kjn1_wide_ii_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_aac_s5kjn1_wide_ii_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_ofilm_gc02m1_macro_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_ofilm_gc02m1_macro_i.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_ofilm_gc02m1_macro_i_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_ofilm_gc02m1_macro_i_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_ofilm_gc02m1_macro_i_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_ofilm_gc02m1_macro_i_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_ofilm_gc02m1_macro_i_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_ofilm_gc02m1_macro_i_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_ofilm_s5kjn1_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_ofilm_s5kjn1_wide_i.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_ofilm_s5kjn1_wide_i_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_ofilm_s5kjn1_wide_i_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_ofilm_s5kjn1_wide_i_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_ofilm_s5kjn1_wide_i_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_ofilm_s5kjn1_wide_i_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_ofilm_s5kjn1_wide_i_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_qtech_gc08a3_ultra_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_qtech_gc08a3_ultra_ii.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_qtech_gc08a3_ultra_ii_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_qtech_gc08a3_ultra_ii_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_qtech_gc08a3_ultra_ii_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_qtech_gc08a3_ultra_ii_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_qtech_gc08a3_ultra_ii_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_qtech_gc08a3_ultra_ii_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_qtech_s5k3l6_front_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_qtech_s5k3l6_front_i.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_qtech_s5k3l6_front_i_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_qtech_s5k3l6_front_i_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_qtech_s5k3l6_front_i_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_qtech_s5k3l6_front_i_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_qtech_s5k3l6_front_i_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_qtech_s5k3l6_front_i_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_iii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_iii.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_iii_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_iii_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_iii_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_iii_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_iii_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_iii_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib64/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii_india.bin \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/components/com.mi.node.realtimebokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.mi.node.realtimebokeh.so \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
     vendor/xiaomi/spes/proprietary/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \
